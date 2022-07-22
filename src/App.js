@@ -1,16 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Header";
+import Footer from "./Footer";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <footer className="App-footer">
-        <hr />
-        <span>Student Jammie Lachance-Côté</span>
-      </footer>
+      <Header />
+      <Footer />
+      <span id="current-date"></span>
     </div>
   );
 }
