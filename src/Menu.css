@@ -3,11 +3,17 @@
   text-align: center;
   border: 1px solid purple;
   border-style: double;
-  background-color: #fff;
+  background-image: url("./images/parchmen.png");
 }
 .menu-cell
 {
   border-right: 1px solid #d87093;
+}
+.date
+{
+  font-weight: 200;
+  font-style: italic;
+  opacity: 0.8;
 }
 .menu-link
 {

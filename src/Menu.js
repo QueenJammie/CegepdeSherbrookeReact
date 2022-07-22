@@ -77,7 +77,7 @@ export default function Menu()
         <div className="menu-cell col-2">
           <a href="connect.js" target="_blank" rel="noreferrer" class="menu-link">Connect</a>
         </div>
-        <div className="col-4">
+        <div className="col-4 date">
           {date} {month} {year}
         </div>
       </div>
