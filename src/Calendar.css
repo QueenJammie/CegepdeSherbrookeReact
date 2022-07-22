@@ -1,0 +1,23 @@
+h1 small
+{
+    font-size: 18px;
+}
+
+.Calendar, .Calendar h4
+{
+    padding-left: 2em;
+    text-align: left;
+}
+.course-code
+{
+    text-align: center;
+}
+
+.course-title
+{
+    font-style: italic;
+}
+.cellule
+{
+    border: 1px solid black;
+}

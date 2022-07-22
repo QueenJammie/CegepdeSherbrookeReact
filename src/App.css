@@ -1,3 +1,8 @@
+ul
+{
+  list-style: none;
+}
+
 .App {
   text-align: center;
   padding: 1em;
@@ -21,4 +26,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.openSourceCode-link
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+.openSourceCode-link:hover
+{
+  color: #c22d75;
+}
+
+.student-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.student-link:hover {
+  color: #c22d75;
 }

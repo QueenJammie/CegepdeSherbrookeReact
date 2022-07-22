@@ -1,14 +1,17 @@
-import './App.css';
 import Header from "./Header";
 import Footer from "./Footer";
+import Calendar from "./Calendar";
 
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App row">
       <Header />
+      <div className="col-8">
+        <Calendar />
+      </div>
       <Footer />
-      <span id="current-date"></span>
     </div>
   );
 }
