@@ -1,23 +1,62 @@
+body
+{
+    background-image: url(./images/test-html-online.jpg);
+}
+
 h1 small
 {
     font-size: 18px;
 }
 
+h1, h2, h3, h4, h5, h6, p, a
+{
+    color: white;
+    border: 1px solid #fff;
+    padding-left: 1em;
+}
+
+.cellule-link
+{
+    color: #000;
+    text-decoration: none;
+}
+.cellule-link:hover
+{
+    color: #c22d75;
+}
+
+.Calendar h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #000;
+}
 .Calendar, .Calendar h4
 {
     padding-left: 2em;
     text-align: left;
+    color: #000;
+}
+.calendar
+{
+    background-image: url("./images/parchmen.png");
+    border-style: double;
+    padding: 25px;
 }
 .course-code
 {
     text-align: center;
+    font-weight: 600;
 }
 
 .course-title
 {
     font-style: italic;
+    font-weight: 350;
+    text-align: center;
 }
 .cellule
 {
-    border: 1px solid black;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 0;
 }

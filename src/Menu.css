@@ -1,0 +1,20 @@
+.Menu
+{
+  text-align: center;
+  border: 1px solid purple;
+  border-style: double;
+  background-color: #fff;
+}
+.menu-cell
+{
+  border-right: 1px solid #d87093;
+}
+.menu-link
+{
+  text-decoration: none;
+  color: #008000;
+}
+.menu-link:hover
+{
+  color: #c22d75;
+}
