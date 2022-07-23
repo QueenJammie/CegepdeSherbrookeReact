@@ -1,0 +1,32 @@
+.footer
+{
+    background-color: #e1fdde;
+    padding-right: 5em;
+    border-radius: 5px;
+}
+
+.openSourceCode-link {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.openSourceCode-link:hover {
+    color: #c22d75;
+}
+
+.student-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.student-link:hover {
+    color: #c22d75;
+}
+
+.App-footer a, h1 a {
+    border: none;
+    text-decoration: none;
+}
