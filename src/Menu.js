@@ -66,16 +66,16 @@ export default function Menu()
     <div className="Menu">
       <div className="row">
         <div className="menu-cell col-2">
-          <a href="about.js" target="_blank" rel="noreferrer" class="menu-link">About</a>
+          <a href="about.js" class="menu-link">About</a>
         </div>
         <div className="menu-cell col-2">
-          <a href="notes.js" target="_blank" rel="noreferrer" class="menu-link">Notes</a>
+          <a href="notes.js" class="menu-link">Notes</a>
         </div>
         <div className="menu-cell col-2">
-          <a href="contact.js" target="_blank" rel="noreferrer" class="menu-link">Contact</a>
+          <a href="contact.js" class="menu-link">Contact</a>
         </div>
         <div className="menu-cell col-2">
-          <a href="connect.js" target="_blank" rel="noreferrer" class="menu-link">Connect</a>
+          <a href="connect.js" class="menu-link">Connect</a>
         </div>
         <div className="col-4 date">
           {date} {month} {year}
