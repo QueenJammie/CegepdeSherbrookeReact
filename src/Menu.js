@@ -65,13 +65,13 @@ export default function Menu()
   return (
     <div className="Menu">
       <div className="row">
-        <div className="menu-cell col-4">
+        <div className="menu-cell col-3">
           <a href="/" className="menu-link">Home</a>
         </div>
-        <div className="menu-cell col-4">
+        <div className="menu-cell col-3">
           <a href="mailto: jammie.lacc@outlook.com" className="menu-link">Contact</a>
         </div>
-        <div className="col-4 date">
+        <div className="col-6 date">
           {date} {month} {year}
         </div>
       </div>
