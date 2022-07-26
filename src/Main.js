@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-
 import "./Main.css";
 
 export default function Main()
 {
   let [course, setCourse] = useState(null);
   let [display, setDisplay] = useState(null);
-
+  
   function handleSubmit(event)
   {
     event.preventDefault();
