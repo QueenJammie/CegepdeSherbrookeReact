@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, p, a
 {
     background-image: url("./images/parchmen.png");
     border-style: double;
-    opacity: 0.975;
+    opacity: 0.93;
     padding: 25px;
     box-shadow: 3px 2px rgba(75, 220, 50, 0.318);
     border-radius: 12px;
